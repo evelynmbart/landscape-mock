@@ -10,6 +10,10 @@ export function Navbar() {
         <span>About</span>
         <span>Locations</span>
       </div>
+      <div className="logo">
+        <img src="./public/logo3.png" />
+      </div>
+
       <Button>Get a Quote</Button>
     </nav>
   );
