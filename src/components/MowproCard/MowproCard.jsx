@@ -1,5 +1,5 @@
-import "./Card.css";
+import "./MowproCard.css";
 
-export function Card({ children }) {
+export function MowproCard({ children }) {
   return <section className="card-container">{children}</section>;
 }
