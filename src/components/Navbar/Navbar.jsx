@@ -1,3 +1,4 @@
+import GrassIcon from "@mui/icons-material/Grass";
 import { Button } from "../Button/Button";
 import "./Navbar.css";
 
@@ -11,7 +12,8 @@ export function Navbar() {
         <span>Locations</span>
       </div>
       <div className="logo">
-        <img src="./public/logo3.png" />
+        <GrassIcon fontSize="large" />
+        {/* <img src="./public/logo3.png" /> */}
       </div>
 
       <Button>Get a Quote</Button>

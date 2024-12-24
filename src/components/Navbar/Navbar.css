@@ -9,6 +9,7 @@
   font-size: 1rem;
   gap: 200px;
   margin-right: 100px;
+  font-family: "Noto Sans", serif;
 }
 
 .links {
@@ -19,11 +20,4 @@
 
 .logo {
   display: flex;
-  justify-content: center;
-}
-
-.logo img {
-  object-fit: fill;
-  height: 100px;
-  width: 100%;
 }
