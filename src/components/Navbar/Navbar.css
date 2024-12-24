@@ -1,0 +1,6 @@
+.navbar {
+  display: flex;
+  height: 200px;
+  background-color: rgb(24, 69, 79);
+  color: white;
+}
