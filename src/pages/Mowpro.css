@@ -1,0 +1,8 @@
+.mowpro-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  background-color: white;
+  padding: 4%;
+  font-family: "Noto Sans", serif;
+}

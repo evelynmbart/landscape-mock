@@ -1,25 +1,30 @@
+import CottageIcon from "@mui/icons-material/Cottage";
+import EngineeringIcon from "@mui/icons-material/Engineering";
+import HandymanIcon from "@mui/icons-material/Handyman";
+import { SectionHead } from "../../src/components/SectionHead/SectionHead";
+import { MowCard } from "../components/MowCard/MowCard";
 import "./Mowpro.css";
 
-// const CARD_DETAILS = [
-//   {
-//     icon: EngineeringIcon,
-//     title: "5 Star Professional",
-//     description:
-//       "MowPro is a highly rated, 5-star professional lawn care service recognized for its unparalled expertise, consistent reliability, and exceptional results.",
-//   },
-//   {
-//     icon: HandymanIcon,
-//     title: "Locally Owned and Operated",
-//     description:
-//       "MowPro is a highly rated, 5-star professional lawn care service recognized for its unparalled expertise, consistent reliability, and exceptional results.",
-//   },
-//   {
-//     icon: CottageIcon,
-//     title: "Certified, Licensed & Insured",
-//     description:
-//       "MowPro is a highly rated, 5-star professional lawn care service recognized for its unparalled expertise, consistent reliability, and exceptional results.",
-//   },
-// ];
+const CARD_DETAILS = [
+  {
+    icon: <EngineeringIcon fontSize="large" />,
+    title: "5 Star Professional",
+    description:
+      "MowPro is a highly rated, 5-star professional lawn care service recognized for its unparalled expertise, consistent reliability, and exceptional results.",
+  },
+  {
+    icon: <HandymanIcon fontSize="large" />,
+    title: "Locally Owned & Operated",
+    description:
+      "MowPro is a highly rated, 5-star professional lawn care service recognized for its unparalled expertise, consistent reliability, and exceptional results.",
+  },
+  {
+    icon: <CottageIcon fontSize="large" />,
+    title: "Certified, Licensed & Insured",
+    description:
+      "MowPro is a highly rated, 5-star professional lawn care service recognized for its unparalled expertise, consistent reliability, and exceptional results.",
+  },
+];
 
 export function Mowpro() {
   return (
@@ -31,6 +36,11 @@ export function Mowpro() {
           schedule, easy to serve.
         </p>
       </SectionHead>
+      <div className="mowpro-cards">
+        {CARD_DETAILS.map((card, index) => (
+          <MowCard key={index} card={card} />
+        ))}
+      </div>
     </section>
   );
 }
