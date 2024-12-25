@@ -30,7 +30,7 @@ export function Mowpro() {
   return (
     <section className="mowpro-container">
       <SectionHead>
-        <h1>Why MowPro?</h1>
+        <h1>Why MowPro for all your lawn needs?</h1>
         <p>
           Keep your lawn looking fresh and feeling healthy with MowPro. Easy to
           schedule, easy to serve.
