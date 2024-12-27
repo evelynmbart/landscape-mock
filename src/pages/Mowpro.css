@@ -1,8 +1,13 @@
+.mowpro-container {
+  background-color: white;
+  font-family: "Noto Sans", serif;
+}
+
 .mowpro-cards {
   display: flex;
   gap: 30px;
   justify-content: center;
-  background-color: white;
+
   padding: 1% 0 7% 0;
   font-family: "Noto Sans", serif;
 }

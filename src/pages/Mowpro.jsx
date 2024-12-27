@@ -29,7 +29,7 @@ const CARD_DETAILS = [
 export function Mowpro() {
   return (
     <section className="mowpro-container">
-      <SectionHead>
+      <SectionHead id="mowpro-section">
         <h1>Why MowPro for all your lawn needs?</h1>
         <p>
           Keep your lawn looking fresh and feeling healthy with MowPro. Easy to

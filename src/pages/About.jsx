@@ -20,7 +20,7 @@ export function About() {
   return (
     <section className="about-container">
       <div className="about-left">
-        <img src="./public/five.png" />
+        <img src="/five.png" />
       </div>
       <div className="about-right">
         <h1>You're One Of Our Own At MowPro</h1>
