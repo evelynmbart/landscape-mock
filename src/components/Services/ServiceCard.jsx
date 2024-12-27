@@ -7,7 +7,8 @@ export function ServiceCard({ card }) {
       <div className="service-top">
         <img src={card.src} />
       </div>
-      <div>
+
+      <div className="service-bottom">
         <h1>{card.title}</h1>
         <p>{card.description}</p>
         <Button>Learn More</Button>
