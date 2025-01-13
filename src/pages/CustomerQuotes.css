@@ -3,4 +3,12 @@
   color: white;
   padding: 20px;
   font-family: "Noto Sans", serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes-container {
+  display: flex;
+  color: black;
+  gap: 30px;
 }

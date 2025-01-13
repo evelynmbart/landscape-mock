@@ -9,10 +9,8 @@ export function Quotes({ customer }) {
         <p>{customer.quote}</p>
       </div>
       <div className="quote-customer">
-        <span>
-          <img src={customer.avatar} />
-          <p>{customer.customer}</p>
-        </span>
+        <img src={customer.avatar} />
+        <p>{customer.customer}</p>
       </div>
     </div>
   );

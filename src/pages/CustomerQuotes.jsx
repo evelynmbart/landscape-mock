@@ -6,7 +6,7 @@ const CUSTOMERS = [
   {
     quote:
       "MowPro transformed my lawn! The service was quick, professional, and the results were beyond my expectations. Highly recommend!",
-    avatar: "/customers/john-smith.png",
+    avatar: "/customers/john-smith2.png",
     customer: "John Smith",
   },
   {
